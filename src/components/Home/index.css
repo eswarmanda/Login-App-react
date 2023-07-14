@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: x-small;
+}
+.log {
+  height: 40px;
+  width: 60px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: lightgray;
+}
